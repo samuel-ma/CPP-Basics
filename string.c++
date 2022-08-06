@@ -11,7 +11,7 @@ int main(){
   string alphabet = "abcdefghijklmnopqrstuvwxyz";
   int age = 22;
   string name3;
-  cin >> "What is your name" >> name3;
+  cin >> name3;
 
   cout << "Hello " << name3 << endl << "\n";
   cout << "The String is " << alphabet.length() << " characters long. \n";
