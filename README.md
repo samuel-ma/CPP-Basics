@@ -10,7 +10,6 @@ C++ covers basic concepts, data types, arrays, pointers, conditional statements,
   <li>Classes and Objects
   <li>Classes(more)
   <li>Inheritance & Polymorphism
-  <li>
-  <li>
-  <li>
+  <li>Templates, Exceptions, and Files
+
 </ul>
