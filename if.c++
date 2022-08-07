@@ -41,5 +41,19 @@ int main(){
   } else {
     cout << "Hello " << name << endl;
   }
+
+  // short hand if else
+  // Ternary Operator
+  // variable = (condition) ? expressionTrue : expressionFalse;
+  
+  //normal if statement
+  int time = 12;
+  if (time < 12){
+    cout << "Good morning" << endl;
+  }
+  else {
+    cout << "Good evening" << endl;
+  }
+
 }
 
