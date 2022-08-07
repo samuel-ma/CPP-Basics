@@ -47,13 +47,18 @@ int main(){
   // variable = (condition) ? expressionTrue : expressionFalse;
   
   //normal if statement
-  int time = 12;
+  int time = 5;
   if (time < 12){
     cout << "Good morning" << endl;
   }
   else {
     cout << "Good evening" << endl;
   }
+
+  // Ternary Operator
+  int time2 = 16;
+  string result = (time2 < 12) ? "Good morning" : "Good evening";
+  cout << result << endl;
 
 }
 
