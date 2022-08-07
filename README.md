@@ -6,6 +6,6 @@ C++ covers basic concepts, data types, arrays, pointers, conditional statements,
   <li>Basic Concepts
   <li>Conditionals and Loops
   <li>Data Types, Arrays, Pointers
-  <li>
+  <li>Functions
   <li>
 </ul>
