@@ -50,6 +50,5 @@ int main(){
 
     default:
     cout << "No holiday" << endl;
-    break;
   }
 }
