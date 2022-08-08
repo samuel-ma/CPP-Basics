@@ -12,4 +12,13 @@ int main(){
     }
     cout << i << endl;
   }
+
+  int k = 0;
+  while(k < 10){
+    cout << k << endl;
+    k++;
+    if (k == 4){
+      continue;
+    }
+  }
 }
