@@ -20,4 +20,15 @@ int main(){
     cout << i << endl;
   }
 
+  // Break in a while loop
+  int i = 0;
+  while(i < 10){
+    cout << i << endl;
+    i++;
+
+    if (i == 4){
+      break;
+    }
+  }
+
 }
