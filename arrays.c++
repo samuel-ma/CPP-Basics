@@ -47,4 +47,11 @@ int main(){
     cout << sports[i] << endl;
   }
 
+  //C++ Array Size
+  //Get the size of an array
+  //To get the size of an array, you can use the sizeOf() operator:
+
+  int myFavNumber[5] = {1, 2, 3, 4, 5};
+  cout << sizeof(myFavNumber) / sizeof(int)<< endl;
+
 }
