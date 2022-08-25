@@ -1,7 +1,6 @@
 # C-Basics
+
 C++ is a popular programming language.
-
-
 C++ covers basic concepts, data types, arrays, pointers, conditional statements, loops, functions, classes, objects, inheritance, and polymorphism.
 
 ## Topics 
