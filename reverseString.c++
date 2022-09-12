@@ -16,4 +16,7 @@ int main(){
   string str;
   cout << "Enter some text: " << endl;
   getline(cin, str);
+  reverseStr(str);
+  cout << str;
+  return 0;
 }
