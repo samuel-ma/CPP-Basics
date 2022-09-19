@@ -2,9 +2,14 @@
 #define MOTHER_H
 
 class Mother {
-	public:
-		Mother();
-		void sayName();
+public:
+	int publicVar;
+
+private:
+	int privateVar;
+
+protected:
+	int protectedVar;
 };
 
-#endif
+#endif 
