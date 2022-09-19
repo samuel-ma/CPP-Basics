@@ -1,13 +1,18 @@
 #include "Sally.h"
 #include <iostream>
+#include <string>
 using namespace std;
 
-Sally::Sally(){}
-
-void Sally::printSomething() {
-	cout << "I am a regualar function" << endl;
+Sally::Sally() {
+	
 }
 
-void Sally::printSomething2() const{
-	cout << "I am the constant function" << endl;
+Sally::Sally(int a) {
+	num = a;
+}
+
+Sally Sally::operator+(Sally so) {
+	Sally brandNew;
+	brandNew.num = num + so.num;
+	return(brandNew);
 }
