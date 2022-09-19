@@ -1,8 +1,9 @@
 #include "Daughter.h"
 #include <iostream>
-#include <string>
+#include "Mother.h"
 using namespace std;
 
-Daughter::Daughter() {
-
+void Daughter::doSomething() {
+	publicVar = 1;
+	protectedVar = 2;
 }
