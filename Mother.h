@@ -2,14 +2,9 @@
 #define MOTHER_H
 
 class Mother {
-public:
-	int publicVar;
-
-private:
-	int privateVar;
-
-protected:
-	int protectedVar;
+	public:
+		Mother();
+		~Mother();
 };
 
-#endif 
+#endif

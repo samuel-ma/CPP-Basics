@@ -1,9 +1,13 @@
 #include "Daughter.h"
-#include <iostream>
 #include "Mother.h"
+#include <iostream>
 using namespace std;
 
-void Daughter::doSomething() {
-	publicVar = 1;
-	protectedVar = 2;
+Daughter::Daughter() {
+	cout << "I am the daughter constructor" << endl;
 }
+
+Daughter::~Daughter() {
+	cout << "Daughter deconstructor" << endl;
+}
+
