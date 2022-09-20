@@ -3,11 +3,7 @@
 #include <iostream>
 using namespace std;
 
-Daughter::Daughter() {
-	cout << "I am the daughter constructor" << endl;
+void Daughter::doSomething() {
+	publicv = 1;
+	protectedv = 2;
 }
-
-Daughter::~Daughter() {
-	cout << "Daughter deconstructor" << endl;
-}
-
