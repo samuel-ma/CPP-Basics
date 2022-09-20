@@ -3,8 +3,13 @@
 
 class Mother {
 	public:
-		Mother();
-		~Mother();
+		int publicv;
+
+	private:
+		int privatev;
+
+	protected:
+		int protectedv;
 };
 
 #endif
